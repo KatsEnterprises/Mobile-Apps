@@ -1,0 +1,13 @@
+=run
+Dynamic\ Products\:launchMode=run
+Dynamic\ Products\:launchShortcut=com.appcelerator.titanium.mobile.ui.android.simulator.launchShortcut.AVD_for_Nexus_One_by_Google
+LAST_LAUNCH_TIMESTAMP=1422731786232
+Pizza\:launchMode=run
+Pizza\:launchShortcut=com.appcelerator.titanium.mobile.ui.android.simulator.launchShortcut.titanium_1_WVGA800
+Titanium\ Todo\ List\:launchMode=run
+Titanium\ Todo\ List\:launchShortcut=com.appcelerator.titanium.mobile.ui.android.simulator.launchShortcut.titanium_1_WVGA800
+Todo\ List\:launchMode=run
+Todo\ List\:launchShortcut=com.appcelerator.titanium.mobile.ui.android.device.launchShortcut
+eclipse.preferences.version=1
+preference.show.console.onError=true
+preference.studio.perspective.version=103

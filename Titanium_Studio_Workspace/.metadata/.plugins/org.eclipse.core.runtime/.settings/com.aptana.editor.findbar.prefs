@@ -1,0 +1,5 @@
+FIND_BAR_DECORATOR_FIND_ENTRIES=\#\r\n\#Fri Jan 30 21\:03\:39 CST 2015\r\n1\=addImage\r\n0\=MarketplaceArtwork.png\r\n
+com.aptana.editor.findbar.caseSensitiveFindBar=true
+com.aptana.editor.findbar.regularExpressionFindBar=true
+com.aptana.editor.findbar.searchBackwardFindBar=true
+eclipse.preferences.version=1

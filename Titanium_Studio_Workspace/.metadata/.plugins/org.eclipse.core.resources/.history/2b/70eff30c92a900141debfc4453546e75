@@ -1,0 +1,22 @@
+// create var for the currentWindow
+var currentWin = Ti.UI.currentWindow;
+ 
+// set the data from the database to the array
+function setData() {    
+    **FUNCTION HERE**
+};
+ 
+// create table view
+var tableview = Ti.UI.createTableView({
+});
+ 
+tableview.addEventListener('click', function(e)
+{
+    **EVENTLISTENER HERE**
+});
+ 
+// add the tableView to the current window
+currentWin.add(tableview);
+ 
+// call the setData function to attach the database results to the array
+setData();

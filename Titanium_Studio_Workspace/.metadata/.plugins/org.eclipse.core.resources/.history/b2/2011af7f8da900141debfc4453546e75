@@ -1,0 +1,35 @@
+// this sets the background color of the master UIView (when there are no windows/tab groups on it)
+Titanium.UI.setBackgroundColor('#8C0221');
+
+//// ---- Menu window, positioned on the left
+var menuWindow = Ti.UI.createWindow({
+    top:0,
+    left:0,
+    width:150
+});
+menuWindow.open();
+ 
+//// ---- Menu Table
+// Menu Titles
+var menuTitles = [
+    {title: 'Menu 1'},
+    {title: 'Menu 2'},
+    {title: 'Menu 3'},
+    {title: 'Menu 4'},
+    {title: 'Menu 5'},
+    {title: 'Menu 6'}
+];
+// Tableview
+var tableView = Ti.UI.createTableView({
+    data:menuTitles
+});
+menuWindow.add(tableView);
+
+//var main = Ti.UI.createWindow({
+    //url:'main_windows/main.js',
+    //height:Ti.Platform.displayCaps.platformHeight,
+    //width:Ti.Platform.displayCaps.platformWidth,
+    //fullscreen:true,
+    //navBarHidden:true
+//});
+//main.open();
